@@ -3,7 +3,7 @@ import Header from "./components/header"
 import Informations from "./components/informations"
 import Categories from "./components/categories"
 import imageIot from "./images/image.jpeg.jpg"
-import imagesante from "./images/images.jpeg2.jpg"
+import imagesante from "./images/image sante.jpg"
 import imageagriculteur from "./images/image agriculteur.png"
 import imagetransport from "./images/transport.jpg"
 import './App.css'
