@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.informations {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.info-block:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#sante > img {
+  height: 30vh;
+}
+
+#agriculteur > img{
+  height: 30vh;
+}
+
+#transport > img{
+  height: 30vh;
+}
+
+#maisonconnectees > img {
+  height: 30vh;
+}
+
+
+
+.info-block img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.info-block .info-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-block .info-content h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.info-block .info-content p {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #00FFFF;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
